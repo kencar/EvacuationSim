@@ -3,6 +3,10 @@ This is a simple Simulator of evacuation in some Scene which parameters stored i
 
 Written Completely In Swift
 
+
+ ![image](https://github.com/kencar/EvacuationSim/blob/master/Pics/成行.png)
+![video](https://github.com/kencar/EvacuationSim/blob/master/Pics/瓶颈处不稳定成行.mov)
+
 What's in it:
 Obstacles:Wall,Column
 Agent:SocialForceModel,ViewField
