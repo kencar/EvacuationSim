@@ -1,0 +1,16 @@
+# EvacuationSim
+This is a simple Simulator of evacuation in some Scene which parameters stored in Plist file.
+
+Written Completely In Swift
+
+What's in it:
+Obstacles:Wall,Column
+Agent:SocialForceModel,ViewField
+Navigation:StaticFloorField
+
+Waht For:
+To caculate the Evacuation efficiency of the Scene you build. This Scene can be a Room with bottleneck or Even larger, supermacket etc.
+
+No Commercial usage.
+
+More Info Please Contact Me: kencar1992@live.com
