@@ -28,6 +28,8 @@
 		3F398C101C633FE800F89C2C /* SimWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F398BFE1C633FE800F89C2C /* SimWindowController.swift */; };
 		3F398C111C633FE800F89C2C /* SimWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F398BFF1C633FE800F89C2C /* SimWindowController.xib */; };
 		3F398C121C633FE800F89C2C /* SimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F398C001C633FE800F89C2C /* SimView.swift */; };
+		3F398C181C63448B00F89C2C /* FreeCounterFlow Bottleneck.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F398C171C63448B00F89C2C /* FreeCounterFlow Bottleneck.plist */; };
+		3F398C1A1C63449E00F89C2C /* Seyfied.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F398C191C63449E00F89C2C /* Seyfied.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		3F398BFE1C633FE800F89C2C /* SimWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimWindowController.swift; sourceTree = "<group>"; };
 		3F398BFF1C633FE800F89C2C /* SimWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimWindowController.xib; sourceTree = "<group>"; };
 		3F398C001C633FE800F89C2C /* SimView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimView.swift; sourceTree = "<group>"; };
+		3F398C171C63448B00F89C2C /* FreeCounterFlow Bottleneck.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FreeCounterFlow Bottleneck.plist"; sourceTree = "<group>"; };
+		3F398C191C63449E00F89C2C /* Seyfied.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Seyfied.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				3F398BE21C633FBB00F89C2C /* AppDelegate.swift */,
+				3F398C161C63446300F89C2C /* DataPlistFiles */,
 				3F398C141C6340DD00F89C2C /* Algorithms */,
 				3F398BF41C633FE800F89C2C /* Scene.swift */,
 				3F398BF51C633FE800F89C2C /* UpdateScenePeriodic.swift */,
@@ -126,6 +131,15 @@
 				3F398BF91C633FE800F89C2C /* DrawableProtocol.swift */,
 			);
 			name = Algorithms;
+			sourceTree = "<group>";
+		};
+		3F398C161C63446300F89C2C /* DataPlistFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3F398C171C63448B00F89C2C /* FreeCounterFlow Bottleneck.plist */,
+				3F398C191C63449E00F89C2C /* Seyfied.plist */,
+			);
+			name = DataPlistFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F398BE51C633FBB00F89C2C /* Assets.xcassets in Resources */,
+				3F398C181C63448B00F89C2C /* FreeCounterFlow Bottleneck.plist in Resources */,
 				3F398C111C633FE800F89C2C /* SimWindowController.xib in Resources */,
 				3F398C0E1C633FE800F89C2C /* SettingWindowController.xib in Resources */,
+				3F398C1A1C63449E00F89C2C /* Seyfied.plist in Resources */,
 				3F398BE81C633FBB00F89C2C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +373,7 @@
 				3F398BEE1C633FBB00F89C2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
